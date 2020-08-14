@@ -1,0 +1,56 @@
+.compare-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.repository {
+  width: 250px;
+  background: #fff;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+header {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header img {
+  width: 64px;
+}
+
+header strong {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.repository header small.owner {
+  font-size: 14px;
+  color: #666;
+}
+
+.repository ul {
+  list-style: none;
+}
+
+.repository ul li {
+  font-weight: bold;
+  padding: 12px 20px;
+}
+
+.repository ul li:nth-child(2n -1) {
+  background: #f5f5f5;
+}
+
+.repository small.info {
+  font-weight: normal;
+  font-size: 12px;
+  color: #999;
+  font-style: italic;
+}
